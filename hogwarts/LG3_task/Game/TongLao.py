@@ -24,8 +24,10 @@ class TongLao:
         print('准备战斗！')
         self.TL_power = self.TL_power*10
         self.TL_hp = self.TL_hp/2
+        # 开始进行回合制对打
         TL_hp = self.TL_hp-self.power_enemy
         hp_enemy = self.hp_enemy - self.TL_power
+        # 判断各自的血量
         if(TL_hp > hp_enemy):
             print(f'天山童姥获胜！hp-hp1:{self.TL_hp-self.power_enemy>self.hp_enemy-self.TL_power}')
         elif(TL_hp == hp_enemy):

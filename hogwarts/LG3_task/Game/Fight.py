@@ -3,7 +3,7 @@ from hogwarts.LG3_task.Game.TongLao import TongLao
 class Fight:
 
   if __name__ == '__main__':
-
+    # 传参以及对方法进行调用
     xuZhu = XuZhu(1000,100,'LQS')
     xuZhu.read()
     xuZhu.see_people()
